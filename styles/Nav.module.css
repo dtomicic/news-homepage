@@ -3,6 +3,8 @@
     align-items: center;
     padding: 25px 0 25px 0;
     justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
 }
 
 .navigationRightMobile {
@@ -17,6 +19,7 @@
     left: 0px;
     top: 0;
     transition: ease-in-out .3s;
+    z-index: 999999;
 }
 
 .navigationMobileMenu {
@@ -30,6 +33,8 @@
     width: 65%;
     padding-top: 30px;
     transition: ease-in-out .3s;
+    z-index: 999999;
+    background-color: white;
 }
 
 .navigationMobileMenuIcon {

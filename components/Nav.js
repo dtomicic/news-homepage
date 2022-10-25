@@ -3,16 +3,9 @@ import navStyles from '../styles/Nav.module.css';
 import logo from '../public/images/logo.svg';
 import hamburger from '../public/images/icon-menu.svg';
 import hamburgerClose from '../public/images/icon-menu-close.svg';
-import { useState } from 'react';
 
-const Nav = () => {
-    const [open, setOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setOpen(open = !open);
-    }
-    console.log(open);
-  return (
+const Nav = ({open, toggleMenu}) => {
+return (
     <nav className={navStyles.navigation}>
         <div className={navStyles.navigationLeft}>
             <Image src={logo} />
