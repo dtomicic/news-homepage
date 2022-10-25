@@ -1,11 +1,10 @@
 import Nav from "./Nav"
 
-const Layout = ({children}) => {
+const Layout = ({children, open, toggleMenu}) => {
   return (
     <>
-        <Nav>
-            {children}
-        </Nav>      
+        <Nav open={open} toggleMenu={toggleMenu}/>
+        {children}
     </>
   )
 }
