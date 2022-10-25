@@ -15,12 +15,18 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+body {
+  padding: 0 15px 0 15px;
+}
+
+@media screen and (min-width: 768px) {
   body {
-    color: white;
-    background: black;
+    padding: 0 35px 0 35px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    padding: 0 70px 0 70px;
   }
 }
