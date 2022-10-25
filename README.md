@@ -26,7 +26,7 @@ It was a pretty easy project, it was mainly made to practice Next.js and to get 
 ## Built with
 - HTML
 - CSS
-- React
+- Next
 
 ## Live preview
 [Click for live preview](https://news-homepage-pi.vercel.app/)
